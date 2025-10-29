@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Saludo from './Components/saludo';
 import InputText from './Components/InputText';
+import Tarjeta from './Components/Tarjeta';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
         <Saludo nombre="Juan" />
+        <Tarjeta titulo="Mi Tarjeta" descripcion="Esta es la descripcion de la tarjeta." />
         <InputText value = "Texto de ejemplo" label = "Holis"/>
       </div>
       <p className="read-the-docs">
